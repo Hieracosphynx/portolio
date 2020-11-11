@@ -1,0 +1,118 @@
+@font-face{
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-Regular.ttf ') format('truetype');
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+.navbar a{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 41px;
+    line-height: 19px;
+}
+
+#Logo{
+    width: 65.28px;
+    height: 64.01px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 12%;
+}
+
+#punchline-container{
+    position: relative;
+    flex-direction: column;
+}
+
+#punchline-container h1{
+    font-family: "Open Sans Bold";
+    font-size: 64px;
+    line-height: 200px;
+}
+
+.punchline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 95px;
+    position: absolute;
+}
+
+.punchline button{
+    position: absolute;
+    background-color: #5EC8DE;
+    color: white;
+    width: 218px;
+    height: 61px;
+    border-radius: 8px;
+    top: 110%;
+}
+
+.dot{
+    position: absolute;
+    border-radius: 50%;
+}
+
+#dot1{
+    width: 120px;
+    height: 120px;
+    left: -40px;
+    top: 250px;
+    background: #5EC8DE;
+}
+
+#dot2{
+    width: 71px;
+    height: 71px;
+    opacity: .7;
+    left: 130px;
+    top: 350px;
+    background: #5EC8DE;
+}
+
+#dot3{
+    width: 43px;
+    height: 43px;
+    left: -13px;
+    opacity: .4;
+    top: 520px;
+    background: #DF5050;
+}
+
+#dot4{
+    width: 71px;
+    height: 71px;
+    right: 57px;
+    top: 38px;
+    background: #5EC8DE;
+}
+
+#dot5{
+    width: 43px;
+    height: 43px;
+    right: 143px;
+    top: 267px;
+    background: #DF5050;
+    opacity: 0.8;
+}
