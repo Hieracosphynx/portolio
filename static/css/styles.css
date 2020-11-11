@@ -41,7 +41,6 @@ body{
 
 #punchline-container{
     position: relative;
-    flex-direction: column;
 }
 
 #punchline-container h1{
@@ -50,13 +49,19 @@ body{
     line-height: 200px;
 }
 
+.punchline-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .punchline{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     top: 95px;
-    position: absolute;
 }
 
 .punchline button{
@@ -111,8 +116,8 @@ body{
 #dot5{
     width: 43px;
     height: 43px;
-    right: 143px;
     top: 267px;
+    right: 143px;
     background: #DF5050;
     opacity: 0.8;
 }
