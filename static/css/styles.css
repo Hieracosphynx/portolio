@@ -10,7 +10,7 @@
 
 body{
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 
 .flex-container{
@@ -22,6 +22,7 @@ body{
 .navbar{
     font-family: "Open Sans";
     font-size: 14px;
+    margin-bottom: 5%;
 }
 
 .navbar a{
@@ -46,7 +47,7 @@ body{
 #punchline-container h1{
     font-family: "Open Sans Bold";
     font-size: 64px;
-    line-height: 200px;
+    line-height: 180px;
 }
 
 .punchline-container{
@@ -65,13 +66,12 @@ body{
 }
 
 .punchline button{
-    position: absolute;
     background-color: #5EC8DE;
     color: white;
     width: 218px;
     height: 61px;
     border-radius: 8px;
-    top: 110%;
+    margin-top: 5%;
 }
 
 .dot{
@@ -83,7 +83,7 @@ body{
     width: 120px;
     height: 120px;
     left: -40px;
-    top: 250px;
+    top: 90px;
     background: #5EC8DE;
 }
 
@@ -92,7 +92,7 @@ body{
     height: 71px;
     opacity: .7;
     left: 130px;
-    top: 350px;
+    top: 220px;
     background: #5EC8DE;
 }
 
@@ -101,7 +101,7 @@ body{
     height: 43px;
     left: -13px;
     opacity: .4;
-    top: 520px;
+    top: 410px;
     background: #DF5050;
 }
 
@@ -121,3 +121,41 @@ body{
     background: #DF5050;
     opacity: 0.8;
 }
+
+.wrapper{
+    position: relative;
+
+}
+
+.wave1{
+    background: url('../img/wave1.svg');
+    background-size: cover;
+    width: 100%;
+    height: 606px;
+}
+
+.wave2::after{
+    background: url('../img/wave2.svg');
+    content: '';
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -80px;
+    z-index: -1;
+}
+
+/*.wrapper{*/
+/*    background: url('../img/wave1.svg');*/
+/*    display: block;*/
+/*    background-size: cover;*/
+/*    width: 100%;*/
+/*    height: 606px;*/
+/*}*/
+
+/*.wrapper:after{*/
+/*    background: url('../img/wave2.svg');*/
+/*    width: 100%;*/
+/*    height: 606px;*/
+/*}*/
+
